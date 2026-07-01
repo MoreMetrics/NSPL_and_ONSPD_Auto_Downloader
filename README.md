@@ -1,6 +1,6 @@
 # Auto-Downloader for latest NSPL / ONSPD
 
-This repository contains three ways to get the latest NSPLD and ONSPD datasets
+This repository contains two ways to get the latest NSPLD and ONSPD datasets
 
 - **NSPL** — National Statistics Postcode Lookup
 - **ONSPD** — ONS Postcode Directory
@@ -9,7 +9,7 @@ This repository contains three ways to get the latest NSPLD and ONSPD datasets
 
    Usability - Easiest, Just a couple of clicks 
    
-   Complexity - High - python script contains the code, hosted on github, deployed on streamlit
+   Complexity - High - python script contains the code, hosted on github, deployed on streamlit - more steps more chance of error
     
    
 Steps:
@@ -36,9 +36,9 @@ The app:
 
 ## Method 2 - Download and Run the python notebook 
 
-   Usability - Medium - Hardest step is installing a python platform - Jupyter notebook
+   Usability - Moderate - Hardest step is installing a python platform - Jupyter notebook
     
-   Complexity - Low - Single python notebook contains all the script, low chance of error
+   Complexity - Low - Single python notebook contains all the script - single step - low chance of error
 
 Steps:
 1. Install Jupyter Notebook using your terminal https://jupyter.org/install#jupyter-notebook
@@ -145,32 +145,6 @@ live postcodes
 ```
 
 This reduces the chance of selecting a guide, a centroid-only file, or an unrelated postcode service.
-
-## Run locally
-
-Create and activate a virtual environment if you want:
-
-```bash
-python -m venv .venv
-```
-
-On Windows PowerShell:
-
-```bash
-.venv\Scripts\Activate.ps1
-```
-
-Install dependencies:
-
-```bash
-pip install -r requirements.txt
-```
-
-Run the app:
-
-```bash
-streamlit run app.py
-```
 
 ## How this was Deployed to Streamlit Community Cloud
 
