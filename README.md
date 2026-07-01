@@ -48,7 +48,7 @@ Steps:
    
 5.a Click `Upload` on the top-right and search for the downloaded .ipynb file
 
-   5.b Alternatively, move the .ipynb file into the directory that **Jupyter Notebook** uses and select from there
+5.b Alternatively, move the .ipynb file into the directory that **Jupyter Notebook** uses and select from there
    
 7. Click the `fast-forward` button labelled as `Restart the kernel and run all cells`
 8. It should create a folder names **ons_postcode_downloads**
