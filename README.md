@@ -45,6 +45,7 @@ Steps:
 2. From the repository download the python notebook named: **download_latest_nspl_onspd_search_based_notebook.ipynb**
 3. Open **Jupyter Notebook** by using your `terminal` and type: `jupyter notebook`
 4. A browser should open with the Jupyter Notebook interface
+   
 5.a Click `Upload` on the top-right and search for the downloaded .ipynb file
 
    5.b Alternatively, move the .ipynb file into the directory that **Jupyter Notebook** uses and select from there
