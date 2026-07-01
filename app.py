@@ -214,7 +214,5 @@ st.markdown(
 ### Notes
 
 - The app does not store the CSV files anywhere, it provides the direct links instead.
-- Streamlit Community Cloud storage is temporary.
-- ONSPD can be several GB, so use the direct source link for that file.
 """
 )
