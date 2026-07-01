@@ -47,7 +47,7 @@ It supports:
 - **NSPL** — National Statistics Postcode Lookup
 - **ONSPD** — ONS Postcode Directory
 
-For large files, especially **ONSPD**, the app provides the direct source CSV link instead of forcing the file through Streamlit.
+The files are large, so the app provides the direct source CSV link instead of forcing the file through Streamlit.
 """
 )
 
