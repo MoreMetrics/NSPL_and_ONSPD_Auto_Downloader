@@ -36,9 +36,9 @@ The app:
 
 ## Method 2 - Download and Run the python notebook 
 
-    Usability - Medium - Hardest step is installing a python platform (Jupyter notebook)
+   Usability - Medium - Hardest step is installing a python platform - Jupyter notebook
     
-    Complexity - Low - Single python notebook contains all the script, low chance of error
+   Complexity - Low - Single python notebook contains all the script, low chance of error
 
 Steps:
 1. Install Jupyter Notebook using your terminal https://jupyter.org/install#jupyter-notebook
@@ -60,7 +60,7 @@ Steps:
 | `requirements.txt` | Python packages needed by Streamlit Cloud |
 | `.gitignore` | Files/folders Git should ignore |
 | `README.md` | This guide |
-| 'download_latest_nspl_onspd_search_based_notebook.ipynb' | script to be downloaded and run locally |
+| `download_latest_nspl_onspd_search_based_notebook.ipynb` | script to be downloaded and run locally |
 
 ## How the search works
 
