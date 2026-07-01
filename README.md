@@ -6,7 +6,9 @@ This repository contains three ways to get the latest NSPLD and ONSPD datasets
 - **ONSPD** — ONS Postcode Directory
 
 I. Method 1 - Use the cloud based Streamlit app
+
    Usability - Easiest, Just a couple of clicks 
+   
    Complexity - High - python script contains the code, hosted on github, deployed on streamlit
     
    
@@ -23,6 +25,7 @@ The app is designed for deployment from GitHub to Streamlit Community Cloud.
 
 ## What the app does
 The app:
+
 1. Calls the data.gov.uk CKAN search API.
 2. Searches for NSPL and/or ONSPD hosted-table datasets.
 3. Rejects likely wrong results, such as user guides and centroid datasets.
@@ -32,12 +35,20 @@ The app:
 7. The app gives the direct source link instead of downloading the file through Streamlit.
 
 II. Method 2 - Download and Run the python notebook 
+
     Usability - Medium - Hardest step is installing a python platform (Jupyter notebook)
+    
     Complexity - Low - Single python notebook contains all the script, low chance of error
 
 Steps:
 1. Install Jupyter Notebook using your terminal https://jupyter.org/install#jupyter-notebook
-2. download 
+2. From the repository download the python notebook named: download_latest_nspl_onspd_search_based_notebook.ipynb
+3. Open Jupyter Notebook, using your terminal, type: jupyter notebook
+4. A browser should open with the Jupyter Notebook interface
+5. Click 'Upload' on the top-right and search for the downloaded .ipynb file
+6. Click the 'fast-forward' button labelled as 'Restart the kernel and run all cells'
+7. It should create a folder names ons_postcode_downloads
+8. Downloads will automatically start
 
 ## Files in this repository
 
@@ -48,6 +59,7 @@ Steps:
 | `requirements.txt` | Python packages needed by Streamlit Cloud |
 | `.gitignore` | Files/folders Git should ignore |
 | `README.md` | This guide |
+| 'download_latest_nspl_onspd_search_based_notebook.ipynb' | script to be downloaded and run locally |
 
 ## How the search works
 
