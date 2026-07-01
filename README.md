@@ -1,24 +1,43 @@
-# Latest NSPL / ONSPD Streamlit App
+# Auto-Downloader for latest NSPL / ONSPD
 
-This repository contains a small Streamlit app that searches **data.gov.uk** for the latest CSV resources for:
+This repository contains three ways to get the latest NSPLD and ONSPD datasets
 
 - **NSPL** — National Statistics Postcode Lookup
 - **ONSPD** — ONS Postcode Directory
 
+I. Method 1 - Use the cloud based Streamlit app
+   Usability - Easiest, Just a couple of clicks 
+   Complexity - High - python script contains the code, hosted on github, deployed on streamlit
+    
+   
+Steps:
+    
+1. Use this streamlit link to the cloud based app: https://nsplonspddownloader.streamlit.app/
+2. Select both NSPL and ONSPD datasets
+3. Click 'Find Latest CSV Resources'
+4. Click both 'Download CSV from source'
+5. Check your browser's download folders
+
+Notes:
 The app is designed for deployment from GitHub to Streamlit Community Cloud.
 
 ## What the app does
-
 The app:
-
 1. Calls the data.gov.uk CKAN search API.
 2. Searches for NSPL and/or ONSPD hosted-table datasets.
 3. Rejects likely wrong results, such as user guides and centroid datasets.
 4. Scores candidate datasets.
 5. Selects the newest usable CSV resource.
 6. Shows a direct download link for the source CSV.
+7. The app gives the direct source link instead of downloading the file through Streamlit.
 
-For large files, especially **ONSPD**, the app gives the direct source link instead of downloading the file through Streamlit.
+II. Method 2 - Download and Run the python notebook 
+    Usability - Medium - Hardest step is installing a python platform (Jupyter notebook)
+    Complexity - Low - Single python notebook contains all the script, low chance of error
+
+Steps:
+1. Install Jupyter Notebook using your terminal https://jupyter.org/install#jupyter-notebook
+2. download 
 
 ## Files in this repository
 
