@@ -42,7 +42,7 @@ The app:
 
 Steps:
 1. Install **Jupyter Notebook** using your terminal https://jupyter.org/install#jupyter-notebook
-2. From the repository download the python notebook named: **download_latest_nspl_onspd_search_based_notebook.ipynb**
+2. From the repository download the python notebook named: **download_latest_nspl_notebook.ipynb**
 3. Open **Jupyter Notebook** by using your `terminal` and type: `jupyter notebook`
 4. A browser should open with the Jupyter Notebook interface
 5. Click `Upload` on the top-right and search for the downloaded .ipynb file
@@ -61,7 +61,7 @@ Steps:
 | `requirements.txt` | Python packages needed by Streamlit Cloud |
 | `.gitignore` | Files/folders Git should ignore |
 | `README.md` | This guide |
-| `download_latest_nspl_onspd_search_based_notebook.ipynb` | script to be downloaded and run locally |
+| `download_latest_nspl_onspd_notebook.ipynb` | script to be downloaded and run locally |
 
 ## How the search works
 
