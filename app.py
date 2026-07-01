@@ -103,7 +103,7 @@ live postcodes
 product_options = list(PRODUCTS.keys())
 
 selected_products = st.multiselect(
-    "Choose product(s) - You can select BOTH NSPL and ONSPD",
+    "Choose product(s) - You can select both NSPL and ONSPD",
     options=product_options,
     default=["NSPL"],
     format_func=lambda key: f"{key} — {PRODUCTS[key]['friendly_name']}",
@@ -213,7 +213,7 @@ st.markdown(
     """
 ### Notes
 
-- The app does not store the downloaded CSV in GitHub.
+- The app does not store the CSV files anywhere, it provides the direct links instead.
 - Streamlit Community Cloud storage is temporary.
 - ONSPD can be several GB, so use the direct source link for that file.
 """
