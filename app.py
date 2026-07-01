@@ -103,7 +103,7 @@ live postcodes
 product_options = list(PRODUCTS.keys())
 
 selected_products = st.multiselect(
-    "Choose product(s)",
+    "Choose product(s) - You can select BOTH NSPL and ONSPD",
     options=product_options,
     default=["NSPL"],
     format_func=lambda key: f"{key} — {PRODUCTS[key]['friendly_name']}",
