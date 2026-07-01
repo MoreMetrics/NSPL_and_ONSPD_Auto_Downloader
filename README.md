@@ -5,7 +5,7 @@ This repository contains three ways to get the latest NSPLD and ONSPD datasets
 - **NSPL** — National Statistics Postcode Lookup
 - **ONSPD** — ONS Postcode Directory
 
-I. Method 1 - Use the cloud based Streamlit app
+## Method 1 - Use the cloud based Streamlit app
 
    Usability - Easiest, Just a couple of clicks 
    
@@ -34,7 +34,7 @@ The app:
 6. Shows a direct download link for the source CSV.
 7. The app gives the direct source link instead of downloading the file through Streamlit.
 
-II. Method 2 - Download and Run the python notebook 
+## Method 2 - Download and Run the python notebook 
 
     Usability - Medium - Hardest step is installing a python platform (Jupyter notebook)
     
@@ -43,12 +43,13 @@ II. Method 2 - Download and Run the python notebook
 Steps:
 1. Install Jupyter Notebook using your terminal https://jupyter.org/install#jupyter-notebook
 2. From the repository download the python notebook named: download_latest_nspl_onspd_search_based_notebook.ipynb
-3. Open Jupyter Notebook, using your terminal, type: jupyter notebook
+3. Open Jupyter Notebook by using your terminal and type: jupyter notebook
 4. A browser should open with the Jupyter Notebook interface
-5. Click 'Upload' on the top-right and search for the downloaded .ipynb file
-6. Click the 'fast-forward' button labelled as 'Restart the kernel and run all cells'
-7. It should create a folder names ons_postcode_downloads
-8. Downloads will automatically start
+5.a Click 'Upload' on the top-right and search for the downloaded .ipynb file
+   5.b Alternatively, move the .ipynb file into the directory that Jupyter Notebook uses and select from there
+7. Click the 'fast-forward' button labelled as 'Restart the kernel and run all cells'
+8. It should create a folder names ons_postcode_downloads
+9. Downloads will automatically start and saved on the created folder.
 
 ## Files in this repository
 
@@ -171,19 +172,14 @@ Run the app:
 streamlit run app.py
 ```
 
-## Deploy to Streamlit Community Cloud
+## How this was Deployed to Streamlit Community Cloud
 
-1. Create a new GitHub repository.
+1. Created a new GitHub repository.
 2. Upload these files to the repository.
-3. Go to Streamlit Community Cloud.
-4. Choose **New app**.
-5. Select your GitHub repository.
-6. Set the main file path to:
-
-```text
-app.py
-```
-
+3. Logged into Streamlit Community Cloud using More Metrics account.
+4. Selected **New app**.
+5. Select the GitHub repository.
+6. Set the main file path.
 7. Deploy.
 
 ## Important note about ONSPD
