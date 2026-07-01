@@ -63,9 +63,15 @@ Steps:
 | `README.md` | This guide |
 | `download_latest_nspl_onspd_notebook.ipynb` | script to be downloaded and run locally |
 
-## How the search works
+## Why search in the first place and how does it work:
 
-The app calls:
+Because of the sheer size of target relational datasets, there seem to no host for the API.
+
+There are only direct download links such as .zip and .csv files hosted on webpages. 
+
+So a 'Search' and scoring function is needed to automate the process.
+
+The script calls:
 
 ```text
 https://data.gov.uk/api/action/package_search
@@ -81,7 +87,7 @@ params = {
 }
 ```
 
-The app uses the following keys from the data.gov.uk / CKAN response.
+The script uses the following keys from the data.gov.uk / CKAN response.
 
 Dataset-level keys:
 
@@ -104,7 +110,7 @@ resources[].format
 resources[].url
 ```
 
-The app chooses a resource where:
+The script chooses a resource where:
 
 ```text
 resources[].format == "CSV"
@@ -136,7 +142,7 @@ For **ONSPD**:
 
 ## What the app rejects
 
-The app rejects candidate datasets containing:
+The script rejects candidate datasets containing:
 
 ```text
 user guide
