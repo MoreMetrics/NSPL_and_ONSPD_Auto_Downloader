@@ -7,17 +7,17 @@ This repository contains two ways to get the latest NSPLD and ONSPD datasets
 
 ## Method 1 - Use the cloud based Streamlit app
 
-   Usability - Easiest, Just a couple of clicks 
+   **Usability** - Easiest, Just a couple of clicks 
    
-   Complexity - High - python script contains the code, hosted on github, deployed on streamlit - more steps more chance of error
+   **Complexity** - **High** - python script contains the code, hosted on github, deployed on streamlit - more steps more chance of error
     
    
 Steps:
     
 1. Use this streamlit link to the cloud based app: https://nsplonspddownloader.streamlit.app/
 2. Select both NSPL and ONSPD datasets
-3. Click 'Find Latest CSV Resources'
-4. Click both 'Download CSV from source'
+3. Click `Find Latest CSV Resources`
+4. Click both `Download CSV from source`
 5. Check your browser's download folders
 
 Notes:
@@ -36,19 +36,19 @@ The app:
 
 ## Method 2 - Download and Run the python notebook 
 
-   Usability - Moderate - Hardest step is installing a python platform - Jupyter notebook
+   **Usability** - **Moderate** - Hardest step is installing a python platform - Jupyter notebook
     
-   Complexity - Low - Single python notebook contains all the script - single step - low chance of error
+   **Complexity** - **Low** - Single python notebook contains all the script - single step - low chance of error
 
 Steps:
-1. Install Jupyter Notebook using your terminal https://jupyter.org/install#jupyter-notebook
-2. From the repository download the python notebook named: download_latest_nspl_onspd_search_based_notebook.ipynb
-3. Open Jupyter Notebook by using your terminal and type: jupyter notebook
+1. Install **Jupyter Notebook** using your terminal https://jupyter.org/install#jupyter-notebook
+2. From the repository download the python notebook named: **download_latest_nspl_onspd_search_based_notebook.ipynb**
+3. Open **Jupyter Notebook** by using your `terminal` and type: `jupyter notebook`
 4. A browser should open with the Jupyter Notebook interface
-5.a Click 'Upload' on the top-right and search for the downloaded .ipynb file
-   5.b Alternatively, move the .ipynb file into the directory that Jupyter Notebook uses and select from there
-7. Click the 'fast-forward' button labelled as 'Restart the kernel and run all cells'
-8. It should create a folder names ons_postcode_downloads
+5.a Click `Upload` on the top-right and search for the downloaded .ipynb file
+   5.b Alternatively, move the .ipynb file into the directory that **Jupyter Notebook** uses and select from there
+7. Click the `fast-forward` button labelled as `Restart the kernel and run all cells`
+8. It should create a folder names **ons_postcode_downloads**
 9. Downloads will automatically start and saved on the created folder.
 
 ## Files in this repository
